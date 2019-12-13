@@ -38,7 +38,7 @@ Let's first measure the accuracy of the uncalibrated scores:
     EER      : 0.0547
     Cllr     : 0.9787
 
-    $ python2 /export/home/tanel/data/IS2019_VOiCES/Development_Data/Speaker_Recognition/voices_scorer/score_voices sample/sys2_llr.txt sample/trial-keys.txt                 
+    $ python2 voices_scorer/score_voices sample/sys2_llr.txt sample/trial-keys.txt                 
     minDCF   : 0.3034
     actDCF   : 1.8849
     avgRPrec : 0.6979
